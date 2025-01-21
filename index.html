@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Космос - Городской праздник</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Шапка сайта -->
+  <header>
+    <div class="logo">
+      <img src="Logo.png" alt="Логотип Космос">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="registration.html">Регистрация</a></li>
+        <li><a href="authorization.html">Авторизация</a></li>
+        <li><a href="404.html">Личный кабинет</a></li>
+        <li><a href="404.html">Космос</a></li>
+        <li><a href="404.html">Поиск</a></li>
+        <li><a href="404.html">Контакты</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle-btn">🌙</button>
+  </header>
+
+  <!-- Слайдер -->
+  <section id="slider">
+    <div class="slides">
+      <div class="slide">
+        <img src="Slider1.jpg" alt="Слайд 1">
+      </div>
+      <div class="slide">
+        <img src="Slider2.jpg" alt="Слайд 2">
+      </div>
+      <div class="slide">
+        <img src="Slider3.jpg" alt="Слайд 3">
+      </div>
+      <div class="slide">
+        <img src="Slider4.jpg" alt="Слайд 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- Блок авторизации -->
+  <section id="login">
+    <h3>Войти на сайт</h3>
+    <form>
+      <input type="email" placeholder="E-mail" required>
+      <input type="password" placeholder="Пароль" required>
+      <button type="submit">Войти</button>
+      <a href="#">Забыли пароль?</a>
+    </form>
+  </section>
+
+  <!-- Блок Космос -->
+  <section id="cosmos">
+    <h3>Что вас ждёт на празднике?</h3>
+    <div class="card-container">
+      <div class="card">
+        <img src="card1.jpg" alt="Конкурс 1">
+        <h4>Конкурс 1</h4>
+        <p>Описание конкурса 1</p>
+      </div>
+      <div class="card">
+        <img src="images/card2.jpg" alt="Конкурс 2">
+        <h4>Конкурс 2</h4>
+        <p>Описание конкурса 2</p>
+      </div>
+      <div class="card">
+        <img src="images/card3.jpg" alt="Конкурс 3">
+        <h4>Конкурс 3</h4>
+        <p>Описание конкурса 3</p>
+      </div>
+      <div class="card">
+        <img src="images/card4.jpg" alt="Конкурс 4">
+        <h4>Конкурс 4</h4>
+        <p>Описание конкурса 4</p>
+      </div>
+      <div class="card">
+        <img src="images/card5.jpg" alt="Конкурс 5">
+        <h4>Конкурс 5</h4>
+        <p>Описание конкурса 5</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Приветствие от организаторов -->
+  <video id="welcome-video" controls>
+    <source src="amnam.mp4" type="video/mp4">
+    Ваш браузер не поддерживает видео.
+  </video>
+  
+
+  <!-- Подвал -->
+  <footer id="contacts">
+    <p><a href="tel:+74842234567">Телефон: +7 (4842) 23-45-67</a></p>
+    <p><a href="mailto:family@cosmos.ru">E-mail: family@cosmos.ru</a></p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="index-light.html">Главная (светлая)</a></li>
+        <li><a href="registration.html">Регистрация</a></li>
+        <li><a href="404.html">Страница не найдена</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
